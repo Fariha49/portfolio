@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:ital@1&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+body
+{
+    background-image: linear-gradient(135deg, #F7ACAC 0%, #9C0752 74%);
+    min-height: 100vh;
+
+}
+section{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+section .side{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+section .side#side1{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+section .side#side2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+section .side video{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.content{
+color: #fff;
+padding: 50px;
+margin-top: 150vh;
+
+}
+
+.content h2{
+font-size: 4em;
+}
+
+.content p{
+    font-size: 2em;
+    }
